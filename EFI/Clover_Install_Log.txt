@@ -1,0 +1,90 @@
+
+Clover EFI installer log - Mon Oct 14 10:56:12 JST 2019
+Installer version: v2.5k r5070 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk8         499.8 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *4.0 TB     disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk5         2.0 TB     disk1s2
+   3:                 Apple_APFS Container disk7         2.0 TB     disk1s3
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *240.1 GB   disk2
+   1:               Windows_NTFS システムで予約済み      575.7 MB   disk2s1
+   2:               Windows_NTFS MsiWin10                238.6 GB   disk2s2
+   3:                       0x27                         836.8 MB   disk2s3
+
+/dev/disk3 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *128.0 GB   disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                 Apple_APFS Container disk6         127.8 GB   disk3s2
+
+/dev/disk4 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:                  Apple_HFS MJ970K                  499.2 GB   disk4s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk4s3
+
+/dev/disk5 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +2.0 TB     disk5
+                                 Physical Store disk1s2
+   1:                APFS Volume 9700K                   339.1 GB   disk5s1
+   2:                APFS Volume Preboot                 46.6 MB    disk5s2
+   3:                APFS Volume Recovery                517.5 MB   disk5s3
+   4:                APFS Volume VM                      8.6 GB     disk5s4
+
+/dev/disk6 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +127.8 GB   disk6
+                                 Physical Store disk3s2
+   1:                APFS Volume Mojave9700K             109.7 GB   disk6s1
+   2:                APFS Volume Preboot                 46.6 MB    disk6s2
+   3:                APFS Volume Recovery                510.4 MB   disk6s3
+   4:                APFS Volume VM                      2.1 GB     disk6s4
+
+/dev/disk7 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +2.0 TB     disk7
+                                 Physical Store disk1s3
+   1:                APFS Volume DATA                    6.2 MB     disk7s1
+
+/dev/disk8 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +499.8 GB   disk8
+                                 Physical Store disk0s2
+   1:                APFS Volume 00 - Data               3.2 GB     disk8s1
+   2:                APFS Volume Preboot                 76.7 MB    disk8s2
+   3:                APFS Volume Recovery                528.9 MB   disk8s3
+   4:                APFS Volume VM                      1.1 GB     disk8s4
+   5:                APFS Volume 00                      10.6 GB    disk8s5
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/MJ970K/EFIROOTDIR/EFI folder to /Volumes/MJ970K/EFI-Backups/r4861/2019-10-14-10h56/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
