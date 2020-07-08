@@ -29,9 +29,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>WEhDSQ==</data>
+					<data>
+					WEhDSQ==
+					</data>
 					<key>Replace</key>
-					<data>WEhDXw==</data>
+					<data>
+					WEhDXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -39,9 +43,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>WEhDMQ==</data>
+					<data>
+					WEhDMQ==
+					</data>
 					<key>Replace</key>
-					<data>WEhDXw==</data>
+					<data>
+					WEhDXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -49,9 +57,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>U0FUMA==</data>
+					<data>
+					U0FUMA==
+					</data>
 					<key>Replace</key>
-					<data>U0FUQQ==</data>
+					<data>
+					U0FUQQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -59,9 +71,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 			</array>
 		</dict>
@@ -118,11 +134,17 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAASWQ==</data>
+				<data>
+				AAASWQ==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AAAwAQ==
+				</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -142,6 +164,8 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>Theme</key>
+		<string>random</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -171,7 +195,9 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>g710////EA==</data>
+				<data>
+				g710////EA==
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -179,7 +205,9 @@
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>g710////Gw==</data>
+				<data>
+				g710////Gw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -187,7 +215,9 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>g32IDw+DpwQAAA==</data>
+				<data>
+				g32IDw+DpwQAAA==
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -195,7 +225,9 @@
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>g32ID5CQkJCQkA==</data>
+				<data>
+				g32ID5CQkJCQkA==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -203,7 +235,9 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>g/sPD4OPBAAA</data>
+				<data>
+				g/sPD4OPBAAA
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -211,7 +245,9 @@
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>g/sPkJCQkJCQ</data>
+				<data>
+				g/sPkJCQkJCQ
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -219,13 +255,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>RXh0ZXJuYWw=</data>
+				<data>
+				RXh0ZXJuYWw=
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>SW50ZXJuYWw=</data>
+				<data>
+				SW50ZXJuYWw=
+				</data>
 			</dict>
 		</array>
 	</dict>
